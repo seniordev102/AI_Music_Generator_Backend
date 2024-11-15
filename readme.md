@@ -35,8 +35,7 @@ alembic upgrade head
   "image": "ipfs://QmUjVtNkCbxBswWtEpVaLubjn2fy5ywixv1azjdfkR5u4v/images/1.png",
   "attributes": [],
   "mp3": "ipfs://QmUjVtNkCbxBswWtEpVaLubjn2fy5ywixv1azjdfkR5u4v/mp3/1.mp3",
-  "hires_audio": "ipfs://QmUjVtNkCbxBswWtEpVaLubjn2fy5ywixv1azjdfkR5u4v/hi-res-audio/1.wav",
-  "author": "IAH.FIT"
+  "hires_audio": "ipfs://QmUjVtNkCbxBswWtEpVaLubjn2fy5ywixv1azjdfkR5u4v/hi-res-audio/1.wav"
 }
 ```
 
