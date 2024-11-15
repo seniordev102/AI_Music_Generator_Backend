@@ -1,4 +1,4 @@
-### how to run the project(BACKEND API)
+### How to run the project(BACKEND API)
 
 first intall the requirements using pip
 
@@ -18,14 +18,14 @@ run the project
 python3 server.py
 ```
 
-## how to run the migration
+## How to run the migration
 
 ```bash
 alembic revision --autogenerate -m "<your message>"
 alembic upgrade head
 ```
 
-### sample ipfs nft json format
+### Sample ipfs nft json format
 
 ```json
 {
@@ -40,7 +40,7 @@ alembic upgrade head
 }
 ```
 
-### pinata keys
+### Pinata keys
 
 ```bash
 API Key: 8c883eced5a7518a26f1
