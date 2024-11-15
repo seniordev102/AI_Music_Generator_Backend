@@ -1,0 +1,10 @@
+_type: prompt
+input_variables: [details]
+output_parser: null
+template: |
+  Please generate a 3 to 4-word title for the Sonic Supplement playlist that represents all the values and attributes detailed below
+  only provide the title without quotes or any other characters, and should be 3 - 4 unique words that true to the values and attributes of the playlist
+  {details}
+  """
+
+template_format: f-string

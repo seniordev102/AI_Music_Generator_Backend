@@ -1,0 +1,30 @@
+_type: prompt
+input_variables: [user_prompt]
+output_parser: null
+template: |
+  Generate an image based on the following description:
+  Purpose: Deepen connections with themes of wisdom, nature, spirituality, and the convergence of science and spirituality, 
+  all within the context of fitness and vitality.
+  highlight timeless elegance, wisdom, and a mystical presence with backgrounds that inspire fitness and spiritual growth.
+  Sonic Supplement Capsule: Visualize energy and vitality, with elements that motivate and support physical wellness and spiritual harmony.
+
+  Create an empowering message and an energizing piece of art inspired by the theme 'Vitality Boost Please,' 
+  aligned with IAH Oracle's vision to rejuvenate and refresh the viewer's spirit. Envision a scene that captures the essence of a new dawn,
+  perhaps featuring a figure stretching towards the rising sun on a vibrant beach or a mountaintop, symbolizing a fresh start and limitless potential. 
+  The environment should be filled with lively and refreshing elements such as splashing water, blooming flowers, or fresh fruits, each adding a layer of 
+  vitality and zest to the composition. Opt for a color palette that includes bright and refreshing hues like cerulean blue, vibrant green, and sunny yellow, 
+  all contributing to a feeling of energy and awakening. Integrate dynamic shapes and patterns, possibly incorporating spirals or waves that convey motion and flow, 
+  suggesting a burst of energy and renewal. Accompany this visual narrative with a Sonic Supplement from IAH Oracle, crafting an uplifting and 
+  vibrant soundtrack that resonates with feelings of freedom and revived determination, helping the user to reset and start anew with increased vitality and enthusiasm.
+
+  image style should be Surrealism Picture a dreamlike, fantastical scene with bizarre juxtapositions. 
+  Use symbolic imagery to create wonder and intrigue, exploring the subconscious.
+
+  based on above guidelines, and use below user prompt details to generate an image.
+  {user_prompt}
+  IMPORTANT: Please don't render text, barcode or any other symbols on the image.
+  Image should be in full frame realistic without boarder or text on it
+  IMPORTANT: When you generating please don't generate image with Muslims or any religious symbols on it unless user specifically ask for it.
+  """
+
+template_format: f-string

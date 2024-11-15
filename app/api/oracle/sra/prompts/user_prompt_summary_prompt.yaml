@@ -1,0 +1,8 @@
+_type: prompt
+input_variables: [user_prompt]
+output_parser: null
+template: |
+  Summarize the user prompt without loosing it context and make it under 3000 tokens.
+  {user_prompt}
+
+template_format: f-string

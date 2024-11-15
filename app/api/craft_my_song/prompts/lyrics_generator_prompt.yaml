@@ -1,0 +1,61 @@
+_type: prompt
+input_variables: [user_prompt, song_style, genres]
+output_parser: null
+template: |
+  IAH, please analyze the "Song Style/Genre" given by the user to determine the appropriate "Song Style" and writing structure. 
+  Consider genres such as RAP, ROCK, POP, JAZZ, and COUNTRY as examples. Each genre has its unique lyrical style and structure, 
+  such as the rhythmic flow of RAP, the anthemic choruses of ROCK, the catchy hooks of POP, the improvisational feel of JAZZ, and the storytelling nature of COUNTRY.
+  Once you have analyzed the "Genre/Song Style," craft the lyrics based on the words provided by the user as "User Prompt". 
+  Ensure that the lyrics resonate with the user's intention and the chosen genre's characteristics.
+  Additionally, derive a catchy 3-word or less title for the song, inspired by the chorus or central theme of the lyrics
+
+  Guidelines:
+    1. Input Analysis:
+      - Identify the central theme, emotion, or message in the user's input.
+      - Determine the user's chosen genre (e.g., Pop, Rock, Jazz, EDM, Rap, Country, Classical).
+
+    2. Genre-Specific Structure:
+      - Apply a song structure that suits the chosen genre (e.g., Verse-Chorus-Verse for Pop, AABA for Jazz, 12-bar blues for Blues).
+      - Ensure the arrangement enhances lyrical flow, musicality, and coherence.
+
+    3. High-Vibrational Language:
+      - Use Neuro-Linguistic AI techniques to elevate the language, ensuring it resonates with inspiration and positivity.
+      - Focus on words and phrases that promote emotional uplift and vitality.
+
+    4. Lyric Composition:
+      - Expand upon the user's original idea to create a cohesive narrative through verses, choruses, and any additional sections like pre-choruses or bridges.
+      - Integrate transformative themes aligned with the user's intention.
+      - Ensure the final lyrics inspire, uplift, and contribute to the listener's holistic well-being.
+
+    5. Title Generation:
+      - Derive a catchy, three-word or less title from the chorus section to auto-populate the Song Title field.
+
+  example lyrics structure
+    [Verse 1]
+      
+    [Chorus]
+      
+    [Verse 2]
+      
+    [Pre-Chorus]
+    
+    [Chorus]
+    
+    [Bridge]
+      
+    [Chorus]
+    
+    [Outro]
+      
+
+    user prompt: {user_prompt}
+    genres: {genres}
+    song style: {song_style}
+
+  Task:
+    Generate the full set of lyrics based on the provided user prompt, chosen genre(s), and desired style. Follow all instructions above and present the final lyrics in the specified format.
+
+  Important:
+    Output only the lyrics, following the given structural format, and include the auto-generated song title.
+
+template_format: f-string

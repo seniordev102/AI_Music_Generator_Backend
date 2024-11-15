@@ -1,0 +1,11 @@
+_type: prompt
+input_variables: [details]
+output_parser: null
+template: |
+  Using the provided track details, generate a 100-word description to illustrate the image. 
+  The description should be creative and engaging, capturing the essence and values of the audio tracks.
+  Please always make sure to provide a description even user has not provided any details.
+  {details}
+  """
+
+template_format: f-string

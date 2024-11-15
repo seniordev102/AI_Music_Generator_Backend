@@ -1,0 +1,15 @@
+2025-03-06 02:55:30,095 - monthly_allocation - INFO - Starting monthly allocation process at 2025-03-06 01:55:30.095464+00:00
+2025-03-06 02:55:30,095 - monthly_allocation - INFO - Auto-fix enabled: False
+2025-03-06 02:55:30,095 - app - INFO - Starting monthly allocation process
+2025-03-06 02:55:30,140 - app - INFO - Found 0 eligible subscriptions for credit allocation
+2025-03-06 02:55:30,142 - app - INFO - Found 0 failed allocations due for retry
+2025-03-06 02:55:30,143 - app - INFO - Checking 0 subscriptions for allocation discrepancies
+2025-03-06 02:55:30,143 - app - INFO - Monthly allocation process completed in 0.05 seconds. Allocations: 0 successful, 0 skipped, 0 failed. Retries: 0 successful, 0 scheduled, 0 failed. Discrepancies: 0 detected, 0 fixed.
+2025-03-06 02:55:30,144 - app - INFO - Updating next allocation dates for 0 subscriptions
+2025-03-06 02:55:30,144 - app - INFO - Updated next allocation dates for 0 subscriptions
+2025-03-06 02:55:30,144 - monthly_allocation - INFO - Updated next allocation dates for 0 subscriptions
+2025-03-06 02:55:30,144 - monthly_allocation - INFO - Monthly allocation process completed
+2025-03-06 02:55:30,144 - monthly_allocation - INFO - Duration: 0.05 seconds
+2025-03-06 02:55:30,144 - monthly_allocation - INFO - Allocations: 0 successful, 0 skipped, 0 failed
+2025-03-06 02:55:30,144 - monthly_allocation - INFO - Retries: 0 successful, 0 scheduled, 0 failed
+2025-03-06 02:55:30,144 - monthly_allocation - INFO - Discrepancies: 0 detected, 0 fixed

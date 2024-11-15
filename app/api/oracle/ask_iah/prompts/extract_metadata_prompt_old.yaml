@@ -1,0 +1,20 @@
+_type: prompt
+input_variables: [user_prompt]
+output_parser: null
+template: |
+  Please note that 'Super Sonics Sonic Supplements Sonic Tonic' refers to the music playlist created by the IAH AI Oracle. Therefore, if the user prompt contains the keywords like
+  'sonic', 'tonic', 'supplement' please make sure to generate a playlist very important.
+  if user provide the predefine prompt as defined above then make sure to create a playlist and if the user specified to create a image then make sure to is_image flag true.
+  We need to make sure image generation set to true if the user requested image generation in user prompt only otherwise we should provide only playlist generation.
+  1. A music playlist creation,
+  2. An image generation, or
+  3. Assistance with a general inquiry.
+  4. Numbers of tracks for the music playlist.
+  Additionally, it's crucial to identify the number of tracks the user requests for the music playlist. 
+  Use this information to categorize and respond accurately to each query.
+  IMPORTANT:
+  - Please make is_image flag true if only user requested image generation is the prompt if not it should be false.  
+  - If user didn't provide the number of tracks then we need to create a playlist with 10 tracks.
+  {user_prompt}
+
+template_format: f-string

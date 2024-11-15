@@ -1,0 +1,10 @@
+input_variables: [image_desc]
+output_parser: null
+template: |
+  Following the guidelines provided above, use the audio details and metadata below to create an album cover that aligns with the theme.
+  IMPORTANT: The image should not include text, barcodes, or any other symbols. 
+  IMPORTANT: When you generating please don't generate image with Muslims or any religious symbols on it unless user specifically ask for it.
+  Ensure the image is full-frame and realistic, without any borders or text.
+  {image_desc}
+
+template_format: f-string

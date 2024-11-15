@@ -1,0 +1,13 @@
+_type: prompt
+input_variables: [details]
+output_parser: null
+template: |
+  Using provided details generate a small less than 100 words summary for each tracks the layout should below
+  Track name: 
+  summary
+
+  After that explain about all the tracks in a single paragraph
+  {details}
+  """
+
+template_format: f-string

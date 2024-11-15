@@ -1,0 +1,11 @@
+_type: prompt
+input_variables: [user_prompt, track_details, user_title]
+output_parser: null
+template: |
+  Generate a 3 to 4-word playlist title that reflects the user's prompt and title, 
+  giving priority to the user's input while capturing the essence of the tracks. The generated title should align with the user’s intention as expressed by both the prompt and the given title, while also incorporating key elements from the track details. Provide the title only, without additional characters or quotes.
+  user prompt: {user_prompt}
+  user title: {user_title}
+  track details: {track_details}
+
+template_format: f-string

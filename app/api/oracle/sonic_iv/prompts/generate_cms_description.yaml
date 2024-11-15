@@ -1,0 +1,13 @@
+_type: prompt
+input_variables: [user_prompt, track_details, user_title]
+output_parser: null
+template: |
+  Please generate a very short and concise summary suitable for social sharing platforms like Facebook, Twitter, and Reddit. 
+  Base the summary primarily on the user's input prompt and user title, while subtly incorporating the essence of the track details without mentioning 
+  any specific track names. Do not use markdown formatting or include any titles or special headings. 
+  Keep the character limit under 230 characters to match social media description limits
+  user prompt: {user_prompt}
+  track details: {track_details}
+  user title: {user_title}
+
+template_format: f-string

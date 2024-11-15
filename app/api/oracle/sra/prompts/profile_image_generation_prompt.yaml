@@ -1,0 +1,17 @@
+_type: prompt
+input_variables: [image_desc]
+output_parser: null
+template: |
+  Generate an image based on the following description:
+  Purpose: Deepen connections with themes of wisdom, nature, spirituality, and the convergence of science and spirituality, 
+  all within the context of fitness and vitality.
+  highlight timeless elegance, wisdom, and a mystical presence with backgrounds that inspire fitness and spiritual growth.
+  Sonic Supplement Capsule: Visualize energy and vitality, with elements that motivate and support physical wellness and spiritual harmony.
+
+  Using above elements generate a creative unique profile image based on the description provided by the user
+  user prompt: {image_desc}
+  IMPORTANT: Please don't render text, barcode or any other symbols on the image.
+  Image should be in full frame realistic without boarder or text on it
+  IMPORTANT: When you generating please don't generate image with Muslims or any religious symbols on it unless user specifically ask for it.
+
+template_format: f-string

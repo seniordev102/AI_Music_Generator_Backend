@@ -1,0 +1,22 @@
+_type: prompt
+input_variables: [user_prompt, music_style, music_genres]
+output_parser: null
+template: |
+  Generate an image based on the following description:
+  Purpose: Deepen connections with themes of wisdom, nature, spirituality, and the convergence of science and spirituality, 
+  all within the context of fitness and vitality.
+  highlight timeless elegance, wisdom, and a mystical presence with backgrounds that inspire fitness and spiritual growth.
+  Sonic Supplement Capsule: Visualize energy and vitality, with elements that motivate and support physical wellness and spiritual harmony.
+
+  Based on the user prompt, music style and music genres 
+  based on above guidelines, and use below audio details metadata to generate album cover art that matches the theme.
+  IMPORTANT: Please don't render text, barcode or any other symbols on the image.
+  Image should be in full frame realistic without boarder or text on it
+  IMPORTANT: When you generating please don't generate image with Muslims or any religious symbols on it unless user specifically ask for it.
+
+  user prompt: {user_prompt}
+  music style: {music_style}
+  music genres: {music_genres}
+
+  based on above details generate creative album cover the song
+template_format: f-string

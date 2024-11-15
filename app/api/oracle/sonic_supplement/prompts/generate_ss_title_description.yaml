@@ -1,0 +1,14 @@
+_type: prompt
+input_variables: [details]
+output_parser: null
+template: |
+  Please generate summary which is suitable for social sharing like facebook, twitter, reddit etc for the playlist based on the user prompt and the provided track details. 
+  Please don't use markdown formatting just plain text. 
+  in summary don't mention title or special heading just plain text summary and it should be very short and concise. 
+  Keep the character limit under 230 characters.
+  Don't mentioned any track details such asn track names in the summary. 
+  summary length should be match to the social media description character limit.
+  {details}
+  """
+
+template_format: f-string
